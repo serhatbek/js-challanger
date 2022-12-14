@@ -6,6 +6,6 @@ const myFunc = (a, b) => {
   return a.filter((num) => num != b);
 };
 
-const arr = [13, 7, 22, '7', false, 9, '22', 44];
+const arr = [13, 7, 22, '7', false, 9, '22', 44, false];
 
-console.log(myFunc(arr, 22));
+console.log(myFunc(arr, false));
