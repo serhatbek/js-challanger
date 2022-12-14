@@ -3,7 +3,7 @@
  */
 
 const myFunc = (a) => {
-  return a.splice(3);
+  return a.splice(-3);
 };
 
 const arr = ['apple', 'banana', 'grapes', 'strawberries', 6];
