@@ -20,7 +20,7 @@ console.log('map', myMap(num));
 /**********/
 
 const myReduce = (a) => {
-  return a.reduce((acc, cur) => acc + cur, 0);
+  return a.reduce((acc, cur) => acc + cur, 0); // 0 at the end means first value like 'total' in myMap function
 };
 
 const numReduce = [3, 22, 5, 81, 9, 42, 36];
